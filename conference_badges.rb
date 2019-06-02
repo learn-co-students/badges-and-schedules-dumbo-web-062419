@@ -22,6 +22,6 @@ speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   end
 
 def printer(speakers)
-  batch_badge_creator
+  batch_badge_creator(speakers)
   assign_rooms
 end
