@@ -6,7 +6,7 @@ def batch_badge_creator(speakers)
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   badge_messages = []
   speakers.each do |name|
-    badge_messages << badge_maker(name) 
+    badge_messages << badge_maker(name)
     end
     return badge_messages
 end
