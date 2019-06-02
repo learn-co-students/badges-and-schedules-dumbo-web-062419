@@ -20,3 +20,8 @@ speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   end
   return room_assignment
   end
+
+def printer
+  batch_badge_creator
+  assign_rooms
+end
