@@ -22,6 +22,6 @@ speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   end
 
 def printer
-  puts batch_badge_creator
-  puts assign_rooms
+  batch_badge_creator
+  assign_rooms
 end
