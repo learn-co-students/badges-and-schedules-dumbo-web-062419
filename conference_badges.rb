@@ -22,10 +22,10 @@ rooms = [1, 2, 3, 4, 5, 6, 7]
   end
 
 def printer(speakers)
-  batch_badge_creator(speakers).each do |speakers|
-    puts badge_messages
+  batch_badge_creator(speakers).each do |string|
+    puts string
   end
-  assign_rooms(speakers).each do |speakers|
-    puts room_assignment
+  assign_rooms(speakers).each do |string|
+    puts string
   end
 end
