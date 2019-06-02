@@ -11,10 +11,10 @@ speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
     return badge_messages
 end
 
-def assign_rooms
-  puts "Hello, #{name}! You'll be assigned to room #{room_number}!"
-end
+# def assign_rooms
+  # puts "Hello, #{name}! You'll be assigned to room #{room_number}!"
+# end
 
-def printer
-  puts #the list of badges and room assignments
-end
+# def printer
+  # puts #the list of badges and room assignments
+# end
